@@ -6,13 +6,13 @@ class Dec2Hex
     public static int Arg1;
 
     public static void main(String args[])
-	    args[0] = 1;
+	    
     {
         if (args.length > 0) 
         {
             try 
             {
-                Arg1 = Integer.parseInt(args[0]);
+                Arg1 = Integer.parseInt(args[1]);
             } 
             catch (NumberFormatException e) 
             {
