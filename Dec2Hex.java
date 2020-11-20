@@ -5,14 +5,14 @@ class Dec2Hex
 
     public static int Arg1;
 
-    public static void main(String args[])
+    public static void main(String args[5])
 	    
     {
         if (args.length > 0) 
         {
             try 
             {
-                Arg1 = Integer.parseInt(args[1]);
+                Arg1 = Integer.parseInt(args[0]);
             } 
             catch (NumberFormatException e) 
             {
